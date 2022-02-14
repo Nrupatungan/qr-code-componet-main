@@ -1,0 +1,27 @@
+@import "variables";
+@import "colors";
+//font
+$Outfit: "Outfit", sans-serif;
+
+body {
+  font-family: $Outfit;
+  text-align: center;
+}
+.container {
+  h1 {
+    font-weight: 700;
+    color: $Darkblue;
+    font-size: 1em;
+    @media #{$mq-760-up} {
+      font-size: 1.5em;
+    }
+  }
+  p {
+    font-size: 1em;
+    font-weight: 400;
+    color: $Grayishblue;
+    @media #{$mq-760-up} {
+      font-size: 1.1em;
+    }
+  }
+}

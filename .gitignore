@@ -1,0 +1,5 @@
+node_modules/
+*.json
+design/
+style-guide.md
+README-template.md
